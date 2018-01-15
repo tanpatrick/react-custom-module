@@ -1,0 +1,20 @@
+{
+    "name": "react-custom-module",
+    "version": "1.0.0",
+    "description": "React Custom Module",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "node_modules/.bin/webpack"
+    },
+    "author": "",
+    "license": "",
+    "dependencies": {
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "webpack": "^3.10.0"
+    },
+    "devDependencies": {
+        "babel-env": "^2.4.1",
+        "babel-loader": "^7.1.2"
+    }
+}

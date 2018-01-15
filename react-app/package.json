@@ -1,0 +1,23 @@
+{
+    "name": "react-app",
+    "version": "1.0.0",
+    "description": "React App",
+    "scripts": {
+        "start": "node_modules/.bin/webpack && node_modules/.bin/webpack-dev-server",
+        "build": "node_modules/.bin/webpack",
+        "dev": "node_modules/.bin/webpack-dev-server && webpack"
+    },
+    "author": "",
+    "license": "",
+    "dependencies": {
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-custom-module": "file:../react-custom-module",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.11.0"
+    },
+    "devDependencies": {
+        "babel-env": "^2.4.1",
+        "babel-loader": "^7.1.2"
+    }
+}
